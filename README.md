@@ -5,3 +5,4 @@ Repositorio dedicado a la asignatura de Desarrollo de Arquitecturas Web de la ca
 ## Contenidos
 
 - Clase 1: Git y GitHub
+- Clase 2: Estructura semantica HTML
