@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Subscribe to our newsletter</h1>
+    <form action="" method="post" enctype="text/plain">
+        <section>
+            <h2>Your contact information:</h2>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Your name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="example@gmail.com">
+            </div>
+        </section>
+        <section>
+            <h3>What are you interested in reading about?</h3>
+            <fieldset>
+                <legend>Title</legend>
+                <ul>
+                    <li>
+                        <input id="science" type="checkbox" name="science" value="science">
+                        <label for="science">Science</label>
+                    </li>
+                    <li>
+                        <input id="technology" type="checkbox" name="technology" value="technology">
+                        <label for="technology">Technology</label>
+                    </li>
+                    <li>
+                        <input id="mindfulness" type="checkbox" name="mindfulness" value="mindfulness">
+                        <label for="mindfulness">Mindfulness</label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <h3>How often would you like to receive our newsletter?</h3>
+
+            <input id="daily" type="radio" name="frequency" value="daily">
+            <label for="daily">Daily</label>
+
+            <input id="weekly" type="radio" name="frequency" value="weekly">
+            <label for="weekly">Weekly</label>
+
+            <input id="monthly" type="radio" name="frequency" value="monthly">
+            <label for="monthly">Monthly</label>
+
+            <h3>Leave your comments below:</h3>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        </section>
+        <section>
+            <a href="../02/index.html">Go back</a>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </section>
+    </form>
+</body>
+
+</html>
