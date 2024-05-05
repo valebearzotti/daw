@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "PolySans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://db.onlinewebfonts.com/t/d8a4964eec2c4a693d6722609068043c.eot");
+  src: url("https://db.onlinewebfonts.com/t/d8a4964eec2c4a693d6722609068043c.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/d8a4964eec2c4a693d6722609068043c.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/d8a4964eec2c4a693d6722609068043c.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/d8a4964eec2c4a693d6722609068043c.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/d8a4964eec2c4a693d6722609068043c.svg#PolySans Slim")
+      format("svg");
+}
+
+@font-face {
+  font-family: "PolySans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.eot");
+  src: url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/03bd7255184e8e8ad4d2a521fa920b6c.svg#PolySans Neutral")
+      format("svg");
+}
+
+@font-face {
+  font-family: "PolySans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("https://db.onlinewebfonts.com/t/cec88e5a4cf367c4620cd23c5a184439.eot");
+  src: url("https://db.onlinewebfonts.com/t/cec88e5a4cf367c4620cd23c5a184439.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/cec88e5a4cf367c4620cd23c5a184439.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/cec88e5a4cf367c4620cd23c5a184439.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/cec88e5a4cf367c4620cd23c5a184439.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/cec88e5a4cf367c4620cd23c5a184439.svg#PolySans Median")
+      format("svg");
+}
+
+@font-face {
+  font-family: "PolySans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://db.onlinewebfonts.com/t/5645b7453bd2df2bf9eb77e589a4afd8.eot");
+  src: url("https://db.onlinewebfonts.com/t/5645b7453bd2df2bf9eb77e589a4afd8.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5645b7453bd2df2bf9eb77e589a4afd8.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5645b7453bd2df2bf9eb77e589a4afd8.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/5645b7453bd2df2bf9eb77e589a4afd8.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5645b7453bd2df2bf9eb77e589a4afd8.svg#PolySans Bulky")
+      format("svg");
+}
