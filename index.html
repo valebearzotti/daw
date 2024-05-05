@@ -5,28 +5,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
 </head>
 
 <body>
-    <!-- Header -->
+    <!-- Website Header -->
     <header>
-        <figure>
-            <img src="./images/Humane_Ai_Pin_Business.jpeg.webp" alt="Humane AI Pin on a hoodie." />
-            <figcaption>
-                <span>The gadget itself is small and can attach to your clothes using a magnetic battery pack so
-                    that it's within easy reach.</span>
-            </figcaption>
-        </figure>
-        <div>
-            <h1>The Humane AI Pin worked better than I expected — until it didn't</h1>
-            <p>Posted on <time datetime="2020-04-15">February 27th 2024</time> by <a href="#">Allison Johnson</a>, a
-                reviewer with 10 years of experience writing about consumer tech. She has a special interest in
-                mobile photography and telecom. Previously, she worked at DPReview.</p>
-        </div>
+        <nav class="navigation menu">
+            <ul class="navigation_list">
+                <li class="navigation_item">
+                    <a href="#">Tech</a>
+                    <span class="navigation_break">/</span>
+                </li>
+                <li class="navigation_item">
+                    <a href="#">Reviews</a>
+                    <span class="navigation_break">/</span>
+                </li>
+                <li class="navigation_item">
+                    <a href="#">Science</a>
+                    <span class="navigation_break">/</span>
+                </li>
+                <li class="navigation_item">
+                    <a href="#">Entertainment</a>
+                    <span class="navigation_break">/</span>
+                </li>
+                <li class="navigation_item">
+                    <a href="#">AI</a>
+                    <span class="navigation_break">/</span>
+                </li>
+                <li class="navigation_item">
+                    <a href="#">More</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <article>
+        <section class="headline">
+            <nav class="navigation breadcrumb">
+                <ul class="navigation_list">
+                    <li class="navigation_item">
+                        <a href="#">Gadgets</a>
+                        <span class="navigation_break">/</span>
+                    </li>
+                    <li class="navigation_item">
+                        <a href="#">Tech</a>
+                        <span class="navigation_break">/</span>
+                    </li>
+                    <li class="navigation_item">
+                        <a href="#">Artificial Intelligence</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1>The Humane AI Pin worked better than I expected — until it didn't</h1>
+        </section>
+        <section class="lead">
+            <div class="lead_image">
+                <img src="./images/DSC06889_processed_alt.jpg-2.webp" alt="Someone holding a Humane AI Pin" />
+                <figcaption>
+                    <span>Life beyond a phone screen? Or just a neat gadget?</span>
+                </figcaption>
+            </div>
+            <div class="lead_aside">
+                <h3>
+                    <span style="color: rgb(82, 0, 255);">/</span> The AI Pin would look pretty impressive if it wasn't
+                    so self-serious.
+                </h3>
+                <p>By <a href="#">Allison Johnson</a>, a
+                    reviewer with 10 years of experience writing about consumer tech. She has a special interest in
+                    mobile photography and telecom. Previously, she worked at DPReview.</p>
+            </div>
+        </section>
         <!-- Content -->
-        <div>
+        <section class="content">
             <p>
                 Look, I'm a Humane AI Pin doubter as much as the next person. And I still think the wearable, AI-powered
                 assistant suffers from a case of this-thing-could-have-been-an-app. But I finally got to spend a little
@@ -138,12 +190,14 @@
                     Photography by Allison Johnson / The Verge
                 </em>
             </p>
-        </div>
+        </section>
     </article>
     <footer>
-        <p>Posted in <a href="#">Reviews</a></p>
-        <p>Tagged <a href="#">AI</a>, <a href="#">Humane</a>, <a href="#">Humane AI Pin</a></p>
-        <p>Share this article: <a href="#">Facebook</a>, <a href="#">Twitter</a>, <a href="#">Pinterest</a></p>
+        <div class="footer_content">
+            <p>Posted in <a href="#">Reviews</a></p>
+            <p>Tagged <a href="#">AI</a>, <a href="#">Humane</a>, <a href="#">Humane AI Pin</a></p>
+            <p>Share this article: <a href="#">Facebook</a>, <a href="#">Twitter</a>, <a href="#">Pinterest</a></p>
+        </div>
     </footer>
 </body>
 
