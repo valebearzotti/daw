@@ -54,6 +54,10 @@ header {
   margin: 0;
 }
 
+.menu li:last-child {
+  display: none;
+}
+
 /* ------------------------ */
 /* Article's Body           */
 /* ------------------------ */
@@ -61,6 +65,7 @@ header {
 article {
   max-width: 1100px;
   margin: 0 auto;
+  padding: 10px;
 }
 
 /* ------------------------ */
@@ -220,4 +225,82 @@ footer {
   font-family: "PolySans";
   font-weight: 400;
   margin: 4px 0;
+}
+
+/* ------------------------ */
+/* Tablet Media Queries     */
+/* ------------------------ */
+
+@media (max-width: 768px) {
+  .menu li:last-child {
+    display: inline-flex;
+  }
+
+  .menu li:not(:last-child) {
+    display: none;
+  }
+
+  .lead {
+    flex-direction: column-reverse;
+    gap: 16px;
+  }
+
+  .lead_aside {
+    gap: 16px;
+  }
+
+  .lead_image img {
+    width: 100%;
+  }
+
+  .lead_aside p {
+    padding-bottom: 16px;
+  }
+
+  article {
+    margin: 0;
+  }
+
+  .content p {
+    width: auto;
+  }
+}
+
+/* ------------------------ */
+/* Mobile Media Queries     */
+/* ------------------------ */
+
+@media (max-width: 480px) {
+  /* Smaller font sizes */
+  h1 {
+    font-size: 32px;
+  }
+
+  .lead {
+    font-size: 20px;
+  }
+
+  .lead_aside h3 {
+    font-size: 16px;
+  }
+
+  .lead_aside p {
+    font-size: 10px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+
+  .footer_content p {
+    font-size: 14px;
+  }
+
+  .breadcrumb ul li {
+    font-size: 12px;
+  }
+
+  .navigation_break {
+    width: 12px;
+  }
 }
